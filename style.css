@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 25px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #333;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #007AFF; /* Primary color from your app theme */
+    border-bottom: 2px solid #007AFF;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+section h3 {
+    color: #444;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+ul {
+    margin-left: 20px;
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+strong {
+    font-weight: 700;
+}
+
+em {
+    font-style: italic;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    section h3 {
+        font-size: 1.1em;
+    }
+}
